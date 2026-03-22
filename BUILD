@@ -4,4 +4,5 @@ java_binary(
     name = "my_java_app",
     main_class = "com.example.App",
     srcs = glob(["src/main/java/com/example/*.java"]),
+    deps = ["lib/commons-lang3-3.20.0.jar"],
 )
